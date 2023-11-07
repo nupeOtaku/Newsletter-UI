@@ -1,0 +1,35 @@
+.small {
+  max-width: 50rem !important;
+  padding: 4rem !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-header {
+  line-height: 1;
+  margin: 3rem 0;
+  font-size: 5.2rem;
+}
+
+.icon-big {
+  width: 5rem;
+}
+
+.success-text {
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .small {
+    padding-top: 20rem !important;
+  }
+
+  .success-text {
+    margin-bottom: 20rem;
+  }
+}
